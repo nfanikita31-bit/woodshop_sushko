@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: woodshop-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python gg_bot.py
+    pythonVersion: 3.11
